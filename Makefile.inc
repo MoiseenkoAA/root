@@ -58,8 +58,8 @@ CXXFLAGS = -pipe $(GG) $(CFLTO) $(CLSECTIONS) -W $(OO) -fpermissive -Wno-address
 LEXFLAGS = 
 YACCFLAGS= -d
 INCPATH  = -I. -I.. -I/usr/local/include
-#LINK     = g++
-LINK     = /bin/root/start_show_cmd.sh g++
+LINK     = g++
+#LINK     = /bin/root/start_show_cmd.sh g++
 #LINK     = /bin/root/start_timed -showdates -showcommand g++
 #LINK     = gcc
 #ld
@@ -107,7 +107,8 @@ WWWglobal = $(WWWRoot)/global/cgi-bin
 binroot  = /bin/root
 binmaa  = /bin/maa
 
-include ../small_defs.inc
+#include ../small_defs.inc
+include small_defs.inc
 
 ####### Output directory
 
