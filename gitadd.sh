@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git add Makefile.inc Makefile_debug.inc Makefile.inc_static *.sln
+git add Makefile.inc small_defs.inc Makefile_debug.inc Makefile.inc_static *.sln
 git add gitadd.sh
 
 if [ x"$1" = "x" ]; then
@@ -11,4 +11,3 @@ else
     #git commit -m "$1" && git push origin master
     git commit -m "$1" && git push origin main
 fi
-
