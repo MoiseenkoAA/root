@@ -107,9 +107,7 @@ WWWglobal = $(WWWRoot)/global/cgi-bin
 binroot  = /bin/root
 binmaa  = /bin/maa
 
-#include ../small_defs.inc
-#include small_defs.inc
-include ../root/small_defs.inc
+include ../small_defs.inc
 
 ####### Output directory
 
